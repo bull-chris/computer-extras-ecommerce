@@ -1,0 +1,20 @@
+#default wordpress files to be ignored
+uploads
+upgrade
+
+#operating system files to be ignored
+Thumbs.db
+ehthumbs.db
+.Trashes
+.Spotlight-V100
+._*
+.DS_Store?
+.DS_Store
+
+#debug files to be ignored
+*.log
+*.sql
+
+#plugins folder to be ignored
+plugins
+
