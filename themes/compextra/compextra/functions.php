@@ -49,7 +49,7 @@ function compextra_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'compextra' ),
+			'menu-main' => esc_html__( 'Primary', 'compextra' ),
 		)
 	);
 
@@ -123,7 +123,7 @@ function compextra_widgets_init() {
 	register_sidebar(
 		array(
 			'name'          => esc_html__( 'Sidebar', 'compextra' ),
-			'id'            => 'sidebar-1',
+			'id'            => 'sidebar-main',
 			'description'   => esc_html__( 'Add widgets here.', 'compextra' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
@@ -139,20 +139,12 @@ add_action( 'widgets_init', 'compextra_widgets_init' );
  */
 function compextra_scripts() {
 	wp_enqueue_style( 'compextra-style', get_stylesheet_uri(), array(), COMPEXTRA_VERSION );
-	wp_style_add_data( 'compextra-style', 'rtl', 'replace' );
-
-	wp_enqueue_script( 'compextra-navigation', get_template_directory_uri() . '/js/navigation.js', array(), COMPEXTRA_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'compextra_scripts' );
-
-/**
- * Implement the Custom Header feature.
- */
-require get_template_directory() . '/inc/custom-header.php';
 
 /**
  * Custom template tags for this theme.
@@ -168,11 +160,3 @@ require get_template_directory() . '/inc/template-functions.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
-
-/**
- * Load Jetpack compatibility file.
- */
-if ( defined( 'JETPACK__VERSION' ) ) {
-	require get_template_directory() . '/inc/jetpack.php';
-}
-
