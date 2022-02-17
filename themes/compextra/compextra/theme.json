@@ -31,6 +31,10 @@
                     "color": "#FFFFFF"
                 }
             ]
+        },
+        "layout" : {
+            "contentSize": "1150px",
+            "wideSize": "1400px"
         }
     }
 }
