@@ -94,3 +94,48 @@ img {
     color: #4C9F70;
     width: 400px;
 }
+
+/** Widget block styles  */
+.wp-block-archives a {
+    color: #4C9F70;
+}
+
+.wp-block-calendar table caption {
+    color: #4C9F70;
+    text-transform: uppercase;
+}
+
+.wp-block-calendar table thead {
+    color: #4C9F70;
+    background-color: #121420;
+}
+
+.wp-block-calendar tbody td {
+    color: #121420;
+}
+
+.wp-block-categories ul {
+    color: #4C9F70;
+}
+
+.wp-block-latest-comments a, .wp-block-latest-posts li a > div, .wp-block-pages-list__item {
+    color: #4C9F70;
+}
+
+.wp-block-rss {
+    color: #121420;
+}
+
+.wp-block-rss button, .wp-block-search button  {
+    background-color: #4C9F70;
+}
+
+.wp-block-search {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wp-block-shortcode {
+    color: #121420;
+}
+
+
