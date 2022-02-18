@@ -50,6 +50,7 @@ function compextra_setup() {
 	register_nav_menus(
 		array(
 			'menu-main' => esc_html__( 'Primary', 'compextra' ),
+			'menu-store' => esc_html__( 'Store', 'compextra' ),
 		)
 	);
 
@@ -139,6 +140,7 @@ add_action( 'widgets_init', 'compextra_widgets_init' );
  */
 function compextra_scripts() {
 	wp_enqueue_style( 'compextra-style', get_stylesheet_uri(), array(), COMPEXTRA_VERSION );
+	wp_enqueue_style( 'compextra-custom-styling', get_template_directory_uri().'/assets/css/compextra-styling.css', array(), COMPEXTRA_VERSION); //add custom css styling to theme
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
