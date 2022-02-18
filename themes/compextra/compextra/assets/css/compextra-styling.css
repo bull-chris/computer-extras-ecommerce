@@ -54,7 +54,35 @@ header {
     display: none;
 }
 
+/** footer styling */
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #121420;
+    color: #fff;
+    padding: 2px 20px;
+}
 
+footer a {
+    color: #4C9F70;
+}
+
+.site-socials {
+    text-align: right;
+}
+
+.site-info {
+    text-align: center;
+}
+
+.site-copyright {
+    grid-column: 2 / span 1;
+    grid-row: 2;
+    text-align: center;
+}
+
+
+/** site block styling */
 entry-content > * {
     max-width: 1150px;
     margin-left: auto;

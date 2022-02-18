@@ -12,6 +12,12 @@
 ?>
 
 	<footer id="colophon" class="site-footer">
+		<!-- Site links -->
+		<div class="site-links">
+			<a>About Us</a>
+			<span class="sep"> | </span>
+			<a>Contact Us</a>
+		</div>
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'compextra' ) ); ?>">
 				<?php
@@ -25,6 +31,16 @@
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'compextra' ), 'compextra', '<a href="https://chrisbull-webdevelopment.ca/">Chris Bull</a>' );
 				?>
 		</div><!-- .site-info -->
+		<!-- Site socials -->
+		<div class="site-socials">
+			<a>Twitter</a>
+			<span class="sep"> | </span>
+			<a>Facebook</a>
+		</div>
+		<!-- site copyright -->
+		<div class="site-copyright">
+			<p>Copyright 2022 Chris Bull</p>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
