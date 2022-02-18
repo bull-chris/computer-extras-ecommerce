@@ -138,4 +138,15 @@ img {
     color: #121420;
 }
 
+/** Theme block styles */
+.wp-block-navigation {
+    color: #4C9F70;
+}
 
+.wp-block-site-title a {
+    color: #4C9F70;
+}
+
+.wp-block-post-title, .wp-block-post-excerpt {
+    color: #121420;
+}
