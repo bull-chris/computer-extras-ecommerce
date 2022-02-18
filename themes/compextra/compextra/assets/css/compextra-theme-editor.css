@@ -4,3 +4,69 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #121420;
 }
+
+.wp-block-paragraph, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #121420;
+}
+
+.wp-block-quote, .wp-block-quote p{
+    color: #4C9F70;
+}
+
+.wp-block-list, ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: upper-roman;
+    color: #4C9F70;
+}
+
+.wp-block-freeform {
+    color: #121420;
+}
+
+.wp-block-code {
+    background-color: #121420;
+    color: #4C9F70;
+}
+
+.wp-block-code code {
+    color: #4C9F70;
+}
+
+pre {
+    letter-spacing: 2px;
+    color: #121420;
+}
+
+.wp-block-pullquote {
+    color: #4C9F70;
+}
+
+.wp-block-pullquote__citation {
+    text-transform: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wp-block-table table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #121420;
+    color: #fff;
+    border: #4C9F70 double 5px;
+}
+
+td {
+    border: #fff solid 1px;
+    padding: 0.5rem;
+}
+
+.wp-block-table figcaption {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #121420;
+    text-transform: uppercase;
+}
+
+.wp-block-verse {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    color: #121420;
+}
