@@ -162,3 +162,6 @@ require get_template_directory() . '/inc/template-functions.php';
  * Customizer additions.
  */
 require get_template_directory() . '/inc/customizer.php';
+
+/* Block theme editor php file */
+require get_template_directory() . '/inc/compextra-theme-editor.php';

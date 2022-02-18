@@ -4,7 +4,7 @@ header {
     grid-template-columns: 1fr 1fr;
     background-color: #121420;
     color: "#4C9F70";
-    padding: 0;
+    margin-bottom: 2rem;
 }
 
 #store-navigation {
@@ -36,13 +36,12 @@ header {
 }
 
 #primary-menu {
-    padding: 5px 20px;
+    padding-left: 20px;
 }
 
 #primary-menu li {
     margin-right: 50px;
 }
-
 
 #primary-menu li > a {
     color: #fff;
@@ -82,8 +81,8 @@ footer a {
 }
 
 
-/** site block styling */
-entry-content > * {
+/** site width styling */
+.entry-content > * {
     max-width: 1150px;
     margin-left: auto;
     margin-right: auto;
