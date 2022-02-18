@@ -77,3 +77,20 @@ td {
 img {
     box-shadow: 0px 4px 15px #4C9F70;
 }
+
+/** Design block styles */
+.wp-block-button__link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0px;
+    background-color: #4C9F70;
+    color: #fff;
+}
+
+.wp-block-more input[type="text"] {
+    color: #4C9F70;
+}
+
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+    color: #4C9F70;
+    width: 400px;
+}
