@@ -7,6 +7,12 @@ header {
     margin-bottom: 2rem;
 }
 
+.custom-logo {
+    box-shadow: none;
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
 #store-navigation {
     grid-column: 3 / span 1;
     padding-top: 5rem;
@@ -64,6 +70,7 @@ footer {
 
 footer a {
     color: #4C9F70;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .site-socials {
@@ -78,6 +85,10 @@ footer a {
     grid-column: 2 / span 1;
     grid-row: 2;
     text-align: center;
+}
+
+.site-copyright p {
+    color: #4C9F70;
 }
 
 

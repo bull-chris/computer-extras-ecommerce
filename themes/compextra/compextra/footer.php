@@ -10,7 +10,7 @@
  */
 
 ?>
-
+	<!-- Footer settings for Computer Extras site -->
 	<footer id="colophon" class="site-footer">
 		<!-- Site links -->
 		<div class="site-links">
@@ -18,6 +18,7 @@
 			<span class="sep"> | </span>
 			<a>Contact Us</a>
 		</div>
+		<!-- Wordpress Info -->
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'compextra' ) ); ?>">
 				<?php
@@ -30,7 +31,7 @@
 				/* translators: 1: Theme name, 2: Theme author. */
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'compextra' ), 'compextra', '<a href="https://chrisbull-webdevelopment.ca/">Chris Bull</a>' );
 				?>
-		</div><!-- .site-info -->
+		</div>
 		<!-- Site socials -->
 		<div class="site-socials">
 			<a>Twitter</a>
