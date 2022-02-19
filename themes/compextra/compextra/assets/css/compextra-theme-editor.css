@@ -2,53 +2,65 @@
 
 
 /** Text block styles */
+
+/* heading styles */
 .wp-block-heading, h1, h2, h3, h4, h5, h6 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #121420;
 }
 
+/* paragraph styles */
 .wp-block-paragraph, p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #121420;
 }
 
+/* quote styles */
 .wp-block-quote, .wp-block-quote p{
     color: #4C9F70;
 }
 
+/* list styles */
 .wp-block-list, ul {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style: upper-roman;
     color: #4C9F70;
 }
 
+/* freeform block styles */
 .wp-block-freeform {
     color: #121420;
 }
 
+/* code block styles */
 .wp-block-code {
     background-color: #121420;
     color: #4C9F70;
 }
 
+/* code block font color */
 .wp-block-code code {
     color: #4C9F70;
 }
 
+/* preformatted block styles */
 pre {
     letter-spacing: 2px;
     color: #121420;
 }
 
+/* pullquote styles */
 .wp-block-pullquote {
     color: #4C9F70;
 }
 
+/* pullquote citation styles */
 .wp-block-pullquote__citation {
     text-transform: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* table block styles */
 .wp-block-table table {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #121420;
@@ -56,17 +68,20 @@ pre {
     border: #4C9F70 double 5px;
 }
 
+/* table data styles */
 td {
     border: #fff solid 1px;
     padding: 0.5rem;
 }
 
+/* table caption styles */
 .wp-block-table figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #121420;
     text-transform: uppercase;
 }
 
+/* verse block styles */
 .wp-block-verse {
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 1px;
@@ -74,11 +89,20 @@ td {
 }
 
 /** Media block styles */
+
+/* image styles */
 img {
     box-shadow: 0px 4px 15px #4C9F70;
 }
 
+/* image caption a tag styles */
+.wp-block-image figcaption a {
+    color: #4C9F70;
+}
+
 /** Design block styles */
+
+/* button block styles */
 .wp-block-button__link {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 0px;
@@ -86,79 +110,99 @@ img {
     color: #fff;
 }
 
+/* read more block styles */
 .wp-block-more input[type="text"] {
     color: #4C9F70;
 }
 
+/* seperator styles */
 .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
     color: #4C9F70;
     width: 400px;
 }
 
 /** Widget block styles  */
+
+/* archives link styles */
 .wp-block-archives a {
     color: #4C9F70;
 }
 
+/* calendar caption styles */
 .wp-block-calendar table caption {
     color: #4C9F70;
     text-transform: uppercase;
 }
 
+/* calendar heading styles */
 .wp-block-calendar table thead > tr {
     color: #4C9F70;
     background-color: #121420;
 }
 
-.wp-block-calendar tbody > td {
+/* calendar dates styles */
+.wp-block-calendar tbody td {
     color: #121420;
 }
 
-.wp-block-calendar tbody > a, .wp-block-categories ul > a {
+/* calendar a tag, categories block a tag styles  */
+.wp-block-calendar tbody a, .wp-block-categories ul a {
     color: #4C9F70;
 }
 
+/* latest comments a tag, latests posts a tag, page list a tag styles */
 .wp-block-latest-comments a, .wp-block-latest-posts li a > div, .wp-block-pages-list__item a {
     color: #4C9F70;
 }
 
+/* rss font style */
 .wp-block-rss {
     color: #121420;
 }
 
+/* rss button, search button styles */
 .wp-block-rss button, .wp-block-search button  {
     background-color: #4C9F70;
 }
 
+/* search font style */
 .wp-block-search {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* shortcode block styles */
 .wp-block-shortcode {
     color: #121420;
 }
 
 /** Theme block styles */
+
+/* navigation block styles */
 .wp-block-navigation {
     color: #4C9F70;
 }
 
+/* site title block styles */
 .wp-block-site-title a {
     color: #4C9F70;
 }
 
+/* post title, post excerpt styles */
 .wp-block-post-title, .wp-block-post-excerpt {
     color: #121420;
 }
 
+/* post date, post terms, post comments, term description styles */
 .wp-block-post-date, wp-block-post-terms, wp-block-post-comments, .wp-block-term-description span {
     color: #121420;
 }
 
+/* navigation link a tag, log out a tag styles */
 .wp-block-post-navigation-link a, wp-block-loginout > a {
     color: #4C9F70;
 }
 
+/* post title a tag font style */
 .wp-block-post-title a {
     color: #4C9F70;
 }

@@ -9,12 +9,14 @@ function compextra_enqueue_theme_editor_assets() {
         filemtime( get_template_directory().'/assets/js/compextra-theme-editor.js')
     );
 }
+//enqueue the compextra_enqueue_theme_editor_assets function
 add_action( 'enqueue_block_editor_assets', 'compextra_enqueue_theme_editor_assets' );
 
 //function to enqueue the stylesheet to handle the styling of the compextra theme blocks
 function compextra_enqueue_theme_editor_stylesheet() {
     wp_enqueue_style( 'compextra-block-styles', get_template_directory_uri() . '/assets/css/compextra-theme-editor.css');
 }
+//enqueue the compextra_enqueue_theme_editor_stylesheet function
 add_action( 'enqueue_block_assets', 'compextra_enqueue_theme_editor_stylesheet' );
 
 ?>
