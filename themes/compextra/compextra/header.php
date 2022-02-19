@@ -10,6 +10,7 @@
  */
 
 ?>
+<!-- Beginning of the HTML document -->
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -20,18 +21,23 @@
 	<?php wp_head(); ?>
 </head>
 
+<!-- Beginning of the body content -->
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
+<!-- Page div -->
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'compextra' ); ?></a>
 
+	<!-- Header for Computer Extras -->
 	<header id="masthead" class="site-header">
+		<!-- Custom Logo -->
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
 			?>
-		</div><!-- .site-branding -->
+		</div>
 
+		<!-- E-commerce store nav links -->
 		<nav id="store-navigation" class="main-navigation">
 			<?php
 			wp_nav_menu(
@@ -41,7 +47,8 @@
 				)
 			);
 			?>
-		</nav><!-- #site-navigation -->
+		</nav>
+		<!-- Newsfeed, About Page, Contact Page navigation -->
 		<nav id="site-navigation" class="main-navigation">
 			<?php
 			wp_nav_menu(
@@ -51,5 +58,5 @@
 				)
 			);
 			?>
-		</nav><!-- #site-navigation -->
+		</nav>
 	</header><!-- #masthead -->
