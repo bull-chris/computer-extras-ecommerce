@@ -105,20 +105,20 @@ img {
     text-transform: uppercase;
 }
 
-.wp-block-calendar table thead {
+.wp-block-calendar table thead > tr {
     color: #4C9F70;
     background-color: #121420;
 }
 
-.wp-block-calendar tbody td {
+.wp-block-calendar tbody > td {
     color: #121420;
 }
 
-.wp-block-categories ul {
+.wp-block-calendar tbody > a, .wp-block-categories ul > a {
     color: #4C9F70;
 }
 
-.wp-block-latest-comments a, .wp-block-latest-posts li a > div, .wp-block-pages-list__item {
+.wp-block-latest-comments a, .wp-block-latest-posts li a > div, .wp-block-pages-list__item a {
     color: #4C9F70;
 }
 
@@ -149,4 +149,16 @@ img {
 
 .wp-block-post-title, .wp-block-post-excerpt {
     color: #121420;
+}
+
+.wp-block-post-date, wp-block-post-terms, wp-block-post-comments, .wp-block-term-description span {
+    color: #121420;
+}
+
+.wp-block-post-navigation-link a, wp-block-loginout > a {
+    color: #4C9F70;
+}
+
+.wp-block-post-title a {
+    color: #4C9F70;
 }
