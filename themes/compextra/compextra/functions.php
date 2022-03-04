@@ -51,6 +51,8 @@ function compextra_setup() {
 		array(
 			'menu-main' => esc_html__( 'Primary', 'compextra' ),
 			'menu-store' => esc_html__( 'Store', 'compextra' ),
+			'menu-footer-pages' => esc_html__( 'FooterLinks', 'compextra' ),
+			'menu-footer-socials' => esc_html__( 'FooterSocials', 'compextra' ),
 		)
 	);
 
