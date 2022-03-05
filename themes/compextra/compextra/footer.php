@@ -34,9 +34,14 @@
 		</div>
 		<!-- Site socials -->
 		<div class="site-socials">
-			<a>Twitter</a>
-			<span class="sep"> | </span>
-			<a>Facebook</a>
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-footer-socials',
+					'menu_id'        => 'footer-socials-menu',
+				)
+			);
+			?>
 		</div>
 		<!-- site copyright -->
 		<div class="site-copyright">
