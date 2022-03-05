@@ -115,8 +115,18 @@ footer a {
     display: flex;
 }
 
+#footer-socials-menu {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
 #footer-links-menu li {
     margin-right: 1rem;
+}
+
+#footer-socials-menu li {
+    margin-left: 1rem;
 }
 
 
