@@ -110,6 +110,15 @@ footer a {
     color: #4C9F70;
 }
 
+#footer-links-menu {
+    list-style: none;
+    display: flex;
+}
+
+#footer-links-menu li {
+    margin-right: 1rem;
+}
+
 
 /** site width styling */
 
