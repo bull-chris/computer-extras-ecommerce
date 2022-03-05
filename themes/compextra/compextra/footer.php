@@ -14,9 +14,14 @@
 	<footer id="colophon" class="site-footer">
 		<!-- Site links -->
 		<div class="site-links">
-			<a>About Us</a>
-			<span class="sep"> | </span>
-			<a>Contact Us</a>
+			<?php
+			wp_nav_menu(
+				array(
+					'theme_location' => 'menu-footer-pages',
+					'menu_id'        => 'footer-links-menu',
+				)
+			);
+			?>
 		</div>
 		<!-- Wordpress Info -->
 		<div class="site-info">
