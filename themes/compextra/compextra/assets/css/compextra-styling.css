@@ -129,6 +129,11 @@ footer a {
     margin-left: 1rem;
 }
 
+.entry-footer {
+    background-color: rgba(0, 0, 0, 0);
+    color: #121420;
+}
+
 /** blog page styling */
 
 .blog .site-main {
@@ -144,6 +149,18 @@ footer a {
     min-height: 300px;
     max-height: 500px;
     overflow-y: scroll;
+}
+
+/** single post styling */
+.single .site-main {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single .entry-header {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 /** site width styling */
