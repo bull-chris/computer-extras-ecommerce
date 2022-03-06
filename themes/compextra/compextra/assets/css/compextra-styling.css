@@ -130,6 +130,7 @@ footer a {
 }
 
 .entry-footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgba(0, 0, 0, 0);
     color: #121420;
 }
@@ -161,6 +162,25 @@ footer a {
 .single .entry-header {
     display: block;
     background-color: rgba(0, 0, 0, 0);
+}
+
+.single .entry-meta {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.single .entry-meta a {
+    color: #4C9F70;
+}
+
+.single .nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+}
+
+.single .nav-links a {
+    color: #4C9F70;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /** site width styling */
