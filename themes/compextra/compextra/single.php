@@ -14,6 +14,11 @@ get_header();
 
 		<?php
 		while ( have_posts() ) :
+			?>
+			<header>
+					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+			</header>
+			<?php
 			the_post();
 
 			get_template_part( 'template-parts/content', get_post_type() );
@@ -25,10 +30,10 @@ get_header();
 				)
 			);
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+			// Disable comments, uncomment if wanted in the future
+			// if ( comments_open() || get_comments_number() ) :
+			// 	comments_template();
+			// endif;
 
 		endwhile; // End of the loop.
 		?>

@@ -129,6 +129,59 @@ footer a {
     margin-left: 1rem;
 }
 
+.entry-footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    color: #121420;
+}
+
+/** blog page styling */
+
+.blog .site-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog article {
+    margin: 1rem 2rem;
+    min-height: 300px;
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+/** single post styling */
+.single .site-main {
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single .entry-header {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.single .entry-meta {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.single .entry-meta a {
+    color: #4C9F70;
+}
+
+.single .nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+}
+
+.single .nav-links a {
+    color: #4C9F70;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /** site width styling */
 
