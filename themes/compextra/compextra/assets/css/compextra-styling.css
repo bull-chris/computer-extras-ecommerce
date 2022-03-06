@@ -183,6 +183,42 @@ footer a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/** woocommerce styling */
+.woocommerce a {
+    color: #4C9F70;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation {
+    float: none;
+    width: 100%;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation-link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+    float: none;
+    width: 100%;
+}
+
+.woocommerce-info, .woocommerce-message {
+    border: 5px solid #4C9F70;
+    background-color: #121420;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.woocommerce-Address-title {
+    background-color:rgba(0, 0, 0, 0);
+}
+
 /** site width styling */
 
 /* default styling width */
