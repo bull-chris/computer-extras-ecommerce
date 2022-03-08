@@ -152,6 +152,25 @@ footer a {
     overflow-y: scroll;
 }
 
+.post .entry-header {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.post .entry-header a {
+    color: #4C9F70;
+}
+
+.tags-links {
+    grid-column: 3 / span 1;
+}
+
+.comments-link {
+    display: none;
+}
+
 /** single post styling */
 .single .site-main {
     max-width: 1150px;
