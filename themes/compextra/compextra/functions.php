@@ -53,6 +53,7 @@ function compextra_setup() {
 			'menu-store' => esc_html__( 'Store', 'compextra' ),
 			'menu-footer-pages' => esc_html__( 'FooterLinks', 'compextra' ),
 			'menu-footer-socials' => esc_html__( 'FooterSocials', 'compextra' ),
+			'menu-store-categories' => esc_html__( 'StoreCategories', 'compextra' ),
 		)
 	);
 
@@ -167,3 +168,7 @@ require get_template_directory() . '/inc/customizer.php';
 
 /* Block theme editor php file */
 require get_template_directory() . '/inc/compextra-theme-editor.php';
+
+/* Woocommerce layout php file */
+require get_template_directory() . '/inc/woocommerce.php';
+

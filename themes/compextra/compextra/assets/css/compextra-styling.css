@@ -310,6 +310,15 @@ footer a {
     background-color:rgba(0, 0, 0, 0);
 }
 
+.woocommerce .columns-3 {
+    display: flex;
+}
+
+.store-categories {
+    min-width: 200px;
+    margin-right: 3rem;
+}
+
 /** site width styling */
 
 /* default styling width */
