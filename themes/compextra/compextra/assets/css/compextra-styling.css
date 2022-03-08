@@ -282,11 +282,13 @@ footer a {
 .woocommerce-account .woocommerce-MyAccount-navigation {
     float: none;
     width: 100%;
+    background-color: #121420;
+    padding: 1rem 0rem;
 }
 
 .woocommerce-account .woocommerce-MyAccount-navigation ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -317,6 +319,10 @@ footer a {
 .store-categories {
     min-width: 200px;
     margin-right: 3rem;
+}
+
+#secondary {
+    display: none;
 }
 
 /** site width styling */

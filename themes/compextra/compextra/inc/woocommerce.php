@@ -21,3 +21,6 @@ function compextra_add_store_menu() {
 }
 
 add_action( 'woocommerce_before_shop_loop', 'compextra_add_store_menu', 30 );
+
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_price', 10 );
+add_action( 'woocommerce_before_single_product_summary', 'woocommerce_template_single_price', 4 );
