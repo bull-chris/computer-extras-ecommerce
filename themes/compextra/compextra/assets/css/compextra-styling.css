@@ -331,6 +331,20 @@ footer a {
     display: none;
 }
 
+/** WS Form styling */
+
+label.wsf-label {
+    font-size: 20px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    color: #121420;
+}
+
+button.wsf-button.wsf-button-primary {
+    background-color: #4C9F70 !important;
+    border-color: #4C9F70 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /** site width styling */
 
 /* default styling width */
